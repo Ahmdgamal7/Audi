@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUDI - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <?php include 'header.html'; ?>
+  <header>
+
+    <a href="#" class="logo">AUDI</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="index.html" href="index.html">home</a></li>
+            <li><a href="services.html">service</a></li>
+            <li><a href="order.html">order</a></li>
+            <li><a href="review.html">review</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact Us</h1>
+    <div class="box-container">
+      <div class="box">
+        <i class="far fa-map"></i>
+        <h3>Location</h3>
+        <p>Munich, Germany</p>
+      </div>
+      <div class="box">
+        <i class="far fa-phone"></i>
+        <h3>Phone</h3>
+        <p>+49 123 456 789</p>
+      </div>
+      <div class="box">
+        <i class="far fa-envelope"></i>
+        <h3>Email</h3>
+        <p>contact@audi.com</p>
+      </div>
+    </div>
+    <form>
+      <input type="text" placeholder="Full Name" class="box">
+      <input type="email" placeholder="Email" class="box">
+      <textarea class="box message" placeholder="Message"></textarea>
+      <input type="submit" value="Send" class="btn">
+    </form>
+  </section>
+
+  <?php include 'footer.html'; ?>
+  <script src="js/script.js"></script>
+</body>
+</html>
